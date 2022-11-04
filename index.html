@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link href=" /dist/output.css" rel="stylesheet">
+    <title>Devchallenges</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,400&family=Outfit&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruda:wght@500&display=swap');
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            max-width: 100%;
+            max-height: 100%;
+            min-width: 300px;
+            padding: 1rem;
+            overflow-x: hidden;
+        }
+        
+        .image1 {
+            margin: 0.8rem;
+            position: relative;
+            width: 25%;
+            justify-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 0.7rem;
+        }
+        
+        #rodney {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #4E5150;
+        }
+        
+        #helsinki {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            text-align: center;
+            color: #A9A9A9;
+        }
+        
+        .firstdiv {
+            background-size: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        
+        .button-section {
+            border-radius: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        
+        button {
+            border-radius: 7px;
+            background: #E5E5E5;
+            border-radius: 12px;
+            width: 5rem;
+            height: 3rem;
+            margin: 8px;
+        }
+        
+        button>.grayfonted {
+            text-align: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 5px;
+            text-align: center;
+            color: #BDBDBD;
+        }
+        
+        button>.lightfonted {
+            text-align: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 5px;
+            text-align: center;
+            color: #4E5150;
+        }
+        
+        .image2and3 {
+            display: flex;
+            margin-block: 1rem;
+        }
+        
+        .image2 {
+            width: 33%;
+            border-radius: 0.6rem;
+        }
+        
+        .imgage3 {
+            width: 64%;
+            border-radius: 0.6rem;
+            margin-left: 0.7rem;
+        }
+        
+        .image4and5 {
+            position: relative;
+            display: flex;
+        }
+        
+        .image4 {
+            border-radius: 0.6rem;
+            width: 64%;
+            height: min-content;
+        }
+        
+        .image5 {
+            border-radius: 0.6rem;
+            display: flex;
+            width: 33%;
+            margin-left: 0.8rem;
+        }
+        
+        .image6 {
+            border-radius: 0.6rem;
+            position: absolute;
+            width: 30.5%;
+            top: 48%;
+            height: 52%;
+        }
+        
+        .image7 {
+            border-radius: 0.6rem;
+            position: absolute;
+            max-width: 30.5%;
+            top: 48%;
+            left: 33%;
+            height: 52%;
+        }
+        
+        footer {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #B9BDCF;
+            text-align: center;
+            margin-block: 2rem;
+        }
+        
+        @media screen and (min-width: 640px) {
+            body {
+                max-height: 100%;
+                min-width: 100%;
+                padding: 7rem;
+            }
+            .image1 {
+                margin: 0.8rem;
+                position: relative;
+                width: 13%;
+                justify-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 0.7rem;
+            }
+            #rodney {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;
+                text-align: center;
+                color: #4E5150;
+            }
+            #helsinki {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #A9A9A9;
+            }
+            .button-section {
+                border-radius: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            button {
+                border-radius: 7px;
+                background: #E5E5E5;
+                border-radius: 12px;
+                width: 6.5rem;
+                height: 4.2rem;
+                margin-top: 1.5rem;
+            }
+            button>.grayfonted {
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #BDBDBD;
+            }
+            button>.lightfonted {
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                color: #4E5150;
+            }
+            .image2and3 {
+                display: flex;
+                height: 100%;
+                gap: 1.3rem;
+                margin-block: 2rem;
+            }
+            .image2 {
+                width: 36%;
+                border-radius: 1rem;
+                height: 21rem;
+            }
+            .imgage3 {
+                width: 61%;
+                height: 21rem;
+                border-radius: 0.6rem;
+                margin-left: 1rem;
+            }
+            .image4and5 {
+                position: relative;
+                display: flex;
+                gap: 1.3rem;
+            }
+            .image4 {
+                border-radius: 0.6rem;
+                display: flex;
+                width: 66%;
+                height: min-content;
+            }
+            .image5 {
+                border-radius: 0.6rem;
+                display: flex;
+                width: 33%;
+                margin-left: 0.8rem;
+            }
+            .image6 {
+                border-radius: 0.6rem;
+                width: 33%;
+                height: 49%;
+                margin-top: 1.5rem;
+            }
+            .image7 {
+                border-radius: 0.6rem;
+                width: 55%;
+                margin-left: 3%;
+                height: 48.5%;
+                column-gap: 0.6;
+                margin-top: 1.5rem;
+            }
+            footer {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 17px;
+                color: #B9BDCF;
+                text-align: center;
+                margin-block: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="firstdiv">
+        <img src="Assets/profilePhoto.png" alt="image1" class="image1" />
+        <span id="rodney">Rodney Cotton</span><br>
+        <small id="helsinki">Helsinki, Finland</small>
+    </section>
+    <div class="button-section">
+        <button class="card1"><small class="lightfonted">100</small><br><small class="grayfonted">Posts</small></button>
+        <button class="card2"><small class="lightfonted">2,242</small><br><small class="grayfonted">Followers</small></button>
+        <button class="card3"><small class="lightfonted">1,432</small><br><small class="grayfonted">Following</small></button>
+    </div>
+    <div class="image2and3">
+        <img src="Assets/photo1.png" alt="imgae2" class="image2" />
+        <img src="Assets/photo2.png" alt="imgage3" class="imgage3" />
+    </div>
+    <div class="image4and5">
+        <img src="Assets/photo3.png" alt="image4" class="image4" />
+        <img src="Assets/photo6.png" alt="image6" class="image6" />
+        <img src="Assets/photo5.png" alt="image7" class="image7" />
+        <img src="Assets/photo_4.png" alt="image5" class="image5" />
+
+    </div>
+    <footer>
+        <small>created by prince_Kaymax.io</small>
+    </footer>
+</body>
+
+</html>
